@@ -1,4 +1,6 @@
-package com.company;
+package com.company.join;
+
+import com.company.SleepTools;
 
 public class TestJoin {
 
@@ -45,8 +47,6 @@ public class TestJoin {
         girl.join();
 
         System.out.println(Thread.currentThread().getName()+" finished");
-
-
 
     }
 
